@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Home from "./core/Home";
+import Footer from "./shared/footer";
+import Header from "./shared/header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="main" style={{height: height()}}>
+      <Header />
+      <Home />
+      <Footer />
+    </main>
   );
+}
+
+function height() {
+  let heightt = window.innerHeight;
+  heightt = heightt -500;
+  return 0;
 }
 
 export default App;

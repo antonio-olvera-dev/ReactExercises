@@ -1,4 +1,13 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+@import "./styles/header.css";
+@import "./styles/footer.css";
+@import "./styles/home.css";
+
 body {
+  height: 100%;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
