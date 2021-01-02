@@ -4,6 +4,7 @@ class Home extends Component {
   render() {
     return (
       <section className="section-home">
+        
         <div className="title-home">
           <h1>Welcome to my React practice</h1>
           <p>
@@ -15,5 +16,6 @@ class Home extends Component {
     );
   }
 }
+
 
 export default Home;

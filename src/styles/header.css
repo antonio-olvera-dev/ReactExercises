@@ -3,3 +3,31 @@
   background-color: black;
   height: 5em;
 }
+
+.ul-header{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+list-style: none;
+}
+
+.li-header{
+  margin-left: 2em;
+}
+.header-span{ 
+  font-size: 1.2em;
+  font-weight: 500;
+  color: white;
+  user-select: none;
+  cursor: pointer;
+}
+.header-span:hover{ 
+  color: rgba(255, 255, 255, 0.70);
+}
+.header-span:active{ 
+  color: rgba(255, 255, 255, 0.5);
+}
+a{
+  text-decoration: none;
+}
