@@ -1,9 +1,10 @@
 import "./App.css";
-import Home from "./core/Home";
 import Footer from "./shared/footer";
 import Header from "./shared/header";
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Forms from "./core/Forms/Forms";
+import Apis from "./core/Apis/Apis";
+import Home from "./core/Home/Home";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Switch>
           <Route exact={true} path="/" component={Home}/>
           <Route exact={true} path="/forms" component={Forms} />
+          <Route exact={true} path="/apis" component={Apis} />
         </Switch>
         <Footer />
       </Router>
